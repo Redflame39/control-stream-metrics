@@ -1,0 +1,9 @@
+ #1 $\Wfor[ \n]*?\(.+?\)
+ #2 $\Wdo\W
+ #3 $\Wwhile[ \n]*?\(.+?\)
+ #4 $\Wif[ \n]*?\(.+?\)
+ #5 $\Welse\W
+ #6 $\Wmatch\W
+ #8 $\Wcase _ *?=>
+ #8 $\Wcase +?other *?=>
+ #7 $\Wcase *?.+? *?=>

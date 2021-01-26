@@ -1,0 +1,43 @@
+class SupLib{
+   def someMethod(xs: Int){
+      if (xs!=0) println xs;
+   }
+   def emptyMethod(){
+   }
+}
+class Main{
+   def main(xs: Array[Int]) {
+     var pos = 0;//переусложнённый код
+     var i;
+     //do break; while(true);
+     for(i=0;i<18;i++) {
+         do  do if(i<17) while(pos!=6) if(pos==5) break; else pos++; while(i<0); while(pos<5);
+         println pos;
+       pos match {
+         case 0 =>
+           break;
+         case 1 =>
+           break;
+         case 2 =>
+           break;
+         case 3 =>
+           break;
+         case 4 =>
+           break;
+         case 5 =>
+           println ("сюда");
+           break;
+         case _ =>
+           pos match {
+               case 5 =>
+                 println("не сюда");
+                 break;
+               case _ =>
+                 //SupLib.someMethod(pos);
+                 break;
+           }
+           break;
+        }
+     }//конец вставки переусложнённого кода
+  }
+}
